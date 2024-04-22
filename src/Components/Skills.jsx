@@ -9,6 +9,7 @@ import html from '../assets/images/HTML.png'
 import css from '../assets/images/CSS3.png'
 import bootstrap from '../assets/images/bootstrap.png'
 import mysql from '../assets/images/Mysql.png'
+import react from '../assets/images/react.png'
 
 const Skills = () => {
 
@@ -27,6 +28,9 @@ const Skills = () => {
         },
         {
             imgsrc: javascript,
+        },
+        {
+            imgsrc: react,
         },
         {
             imgsrc: html,

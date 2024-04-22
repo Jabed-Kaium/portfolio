@@ -15,7 +15,7 @@ const Home = () => {
                                     autoStart: true,
                                     loop: true,
                                     delay: 50,
-                                    strings: ["CS Student, Software Developer"]
+                                    strings: ["CSE Graduate, Software Developer"]
                                 }}
                                 />
                             </h4>
@@ -24,10 +24,12 @@ const Home = () => {
                             <h1>Jabed Kaium</h1>
                         </div>
                         <div className="description pt-1">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt officiis aliquam vel commodi aspernatur eum omnis, tenetur labore aperiam culpa animi iure beatae rerum doloremque optio libero quas velit totam blanditiis officia reprehenderit nihil.</p>
+                            <p>An ambitious and hardworking person, ready to take new challenges. Determined to take my skills to a unique level by taking new challenges. Every task is a new experience and it is a pleasure to learn something from it. I am very much focused to reach the target. 
+                            </p>
+                            <h5 className='py-1'>Let&apos;s build together something valuable.</h5>
                         </div>
                         <div className="view-btn pt-2">
-                            <a className="btn btn-outline" href="#About">View More</a>
+                            <a className="btn btn-outline mb-5" href="#About">View More</a>
                         </div>
                     </div>
                     <div className="home-image col-md-6">

@@ -11,7 +11,7 @@ const About = () => {
                     <div className="col-md-6">
                         <div className="about-description">
                             <h1 className='about-title'>WHO AM I?</h1>
-                            <p>I am a computer science student and passionate software developer. My interested technology fields are Java and Spring Boot. I have solved so many problems in various online judge such as Codeforces, UVA, LightOJ etc. </p>
+                            <p>Skilled programmer proficient in C, C++, Java, HTML, CSS, JavaScript and MySQL. Specialized in Full Stack projects with a strong track record of problem-solving, including 800+ solutions on prominent coding platforms(Codeforces, Codechef, UVA, LightOJ etc). Involved in programming contests and served as a mentor and problem setter in the CSTE Club. Proficient in quickly adapting to new technologies and utilizing them to drive innovation. Committed to continuous growth and eager to contribute to dynamic teams pushing the boundaries of what's possible in the digital landscape. </p>
                             <h4>Education</h4>
                             <p> <strong>B.Sc</strong> <br/> Computer Science and Telecommunication Engineering, <br/> Noakhali Science and Technology University </p>
                         </div>

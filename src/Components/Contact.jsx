@@ -1,8 +1,11 @@
+
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { FiPhone } from "react-icons/fi";
 import { CiMail } from "react-icons/ci";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -17,8 +20,18 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             console.log('Message sent');
+            toast.success("Message sent successfully.", {
+                autoClose: 3000,
+                draggablePercent: 60,
+                theme: "colored"
+            });
         }, (error) => {
             console.log(error.text);
+            toast.error("Message couldn't sent.", {
+                autoClose: 3000,
+                draggablePercent: 60,
+                theme: "colored"
+            });
         });
     };
 
@@ -53,6 +66,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer draggablePercent={60} />
         </section>
     );
 }
